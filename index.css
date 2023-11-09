@@ -11,14 +11,15 @@ body {
     text-align: center;
     padding: 32px;
     background-color: black;
-    
+    height: 1400px;
+    overflow: hidden;
 }
 .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
-
-
-    padding: 0 4px;            
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;          
 }
 
 /* Create four equal columns that sits next to each other */
@@ -27,9 +28,6 @@ body {
      flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .column img {

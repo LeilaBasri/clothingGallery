@@ -24,7 +24,8 @@ body {
    padding: 0 4px; 
    height: 150px;
    display: -ms-flexbox; /* IE10 */
-   display: flex; 
+   display: flex;
+   flex-direction: row; 
    justify-content: space-between;
    width: 100%;
 }
@@ -36,6 +37,7 @@ body {
     width: 100%;
     height: 150px;
     padding: 5px;
+    flex-grow: 1;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
